@@ -1,0 +1,23 @@
+
+#greeting {
+    height: 135px;
+    width: 100%;
+    padding: 24px 0;
+    text-align: center;
+}
+
+/* links */
+.links {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#safe {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#stress-free {
+    font-size: 13px;
+    font-weight: 500;
+}

@@ -1,0 +1,38 @@
+
+#bottom-navigation {
+    height: 45px;
+    background-color:  #0046be;
+    border-top: .1rem solid  rgb(121, 121, 243);
+    padding-left: 20px;
+    min-width: 975px;
+}
+
+#caret {
+    color: rgb(121, 121, 243);
+    margin-left: 5px;
+}
+
+
+/* products */
+#products a {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0 13px 0 13px;
+}
+#products a:hover {
+    text-decoration: none;
+}
+
+
+/* account */
+#account-icon {
+    margin-left: 25px;
+}
+
+#account a {
+    color: white;
+    font-size: 13px;
+    padding-right:10px;
+    font-weight: 700;
+}

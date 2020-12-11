@@ -1,0 +1,21 @@
+
+#sale {
+    background-color: blue;
+    height: 221px;
+    /* width: 1040px; */
+    width: auto;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.horizon {
+    display: inline-block;
+    padding: 0 15px 0 15px;
+}
+
+
+#Title {
+    min-width: 820px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}

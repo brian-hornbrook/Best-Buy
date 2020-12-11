@@ -1,0 +1,65 @@
+
+#middle-navigation {
+    width: 100%;
+    margin-top: 5px;
+    height: 10px;
+}
+
+.horizon {
+    display: inline-block;
+}
+
+
+/* form */
+#form-area {
+    height: 10px;
+    width: 36%;
+    min-width: 400px;
+}
+/* search bar */
+#searchBar-area {
+    width: 90%;
+    background-color: blue;
+}
+#search-bar {
+    width: 100%;
+    border-radius: 4px 0 0 4px;
+    border-right: white;
+}
+
+/* search bar button */
+#searchBar-button-area {
+    width: 10%;
+    background-color: white;
+    padding: 6px 0 6px 0;
+    border: 1px solid #ced4da;
+    border-left: white;
+    border-radius: 0 4px 4px 0;
+}
+#search-button {
+    background-color: white;
+    width: 100%;
+}
+
+
+/* right navigation */
+#middleRight-navigation {
+    margin-left: 150px;
+}
+#middleRight-navigation a {
+    color: white;
+}
+#middleRight-navigation a:hover {
+    text-decoration: none;
+}
+
+#seperator-right {
+    position: relative;
+    top: 12px;
+    width: 20px;
+    height: 35px;
+    border-right: 1px solid rgb(121, 121, 243);
+}
+#seperator-left {
+    width: 20px;
+}
