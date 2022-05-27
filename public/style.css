@@ -1,5 +1,29 @@
-#page-size {
-    min-width: 1050px;
+/***** HEADER *****/
+header nav,
+header nav .bg-primary {
+    background-color: #0046be;
 }
 
+header nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    padding: 30px 0;
+}
 
+header #brand-area {
+    /* margin: 0 30px; */
+    margin-left: 15px;
+}
+
+header #brand {
+    /* height: 70px; */
+    width: 80px;
+}
+
+header #links a {
+    color: white;
+    margin: 0 15px;
+    font-size: .9rem;
+}
