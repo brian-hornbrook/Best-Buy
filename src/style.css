@@ -75,7 +75,7 @@
 }
 
 #sale #full-list .btn-warning {
-    background-color:#fff200;
+    background-color: #fff200;
     border: #fff200;
     height: 20px;
     font-size: 0.7rem;
@@ -103,13 +103,28 @@
 
 #sale a {
     width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+#sale .catagory-area {
+    display: flex;
+    justify-content: center;
+}
+
+#sale .catagory #circle-area {
+    display: flex;
+    flex-flow: column;
+    width: 100px;
 }
 
 #sale .catagory .circle-content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 100px;
+    width: 100px;
     background-color: white;
     border-radius: 50%;
     border: solid 3px #4976e6;
@@ -128,9 +143,19 @@
 
 
 /***** HEADER *****/
-header nav,
-header nav .bg-primary {
+header {
     background-color: #0046be;
+    padding: 0 15px;
+}
+
+header #location {
+    border-bottom: 1px solid rgba(173, 209, 230, 0.534);
+    color: white;
+    padding: 8px;
+}
+
+header #location p {
+    margin: 0;
 }
 
 header nav {
@@ -138,22 +163,27 @@ header nav {
     height: auto;
     display: flex;
     flex-flow: row;
-    padding: 20px 0;
+    padding: 10px 0;
+}
+
+header #header-bar {
+    padding: 0;
+    width: 100%;
+}
+
+header #non-collapse-area {
+    display: flex;
+    justify-content: space-around;
 }
 
 header #brand-area {
-    margin: 10px 0 0 15px;
+    margin-right: 10px;
+    width: 18%;
 }
 
 header #brand {
     height: 35px;
     width: 60px;
-}
-
-header #links a {
-    color: white;
-    margin: 0 15px;
-    font-size: .9rem;
 }
 
 header form {
@@ -163,14 +193,16 @@ header form {
 
 header #search-area {
     width: 60%;
+    height: 35px;
     display: flex;
+    justify-content: flex-start;
+    margin: 0 10px;
 }
 
 header #searchBar-area {
     width: 90%;
     border-right: white;
     border-radius: 4px 0 0 4px;
-
 }
 
 header #searchBar-area input {
@@ -180,8 +212,8 @@ header #searchBar-area input {
 
 header #searchBar-button-area {
     background-color: white;
-    width: 15%;
-    height: 38px;
+    width: 13%;
+    height: 33px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -190,9 +222,34 @@ header #searchBar-button-area {
     border-radius: 0 4px 4px 0;
 }
 
+header #location-area,
+header #cart-area p {
+    display: none;
+}
+
+header div img {
+    height: 35px;
+    width: 35px;
+}
+
+header #collapse-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header #links {
+    display: flex;
+    justify-content: center;
+    /* width: 60%; */
+}
+
 header ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-flow: column;
+    width: 60%;
 }
 
 header li {
@@ -201,8 +258,140 @@ header li {
     text-align: center;
 }
 
+header #links a {
+    color: white;
+    font-size: .9rem;
+    padding-top: 1px;
+}
+
 header .collapse-spacer {
     margin: 20px 0;
     height: 10px;
     background-color: rgba(196, 196, 196, 0.089);
+}
+
+header #list-dropdown {
+    display: none;
+}
+
+
+
+/***** TABLET *****/
+@media(min-width: 768px) {
+
+    /* header */
+    header #location {
+        display: none;
+    }
+
+    header #header-bar {
+        display: flex;
+        flex-flow: column;
+    }
+
+    header #non-collapse-area {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    header #brand-area {
+        width: 10%;
+    }
+
+    header #search-area {
+        width: 40%;
+    }
+
+    header #searchBar-area {
+        width: 94%;
+    }
+
+    header #searchBar-button-area {
+        height: 34px;
+    }
+
+    header #search-links {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+
+    header #search-links p {
+        margin: 0;
+        color: white;
+    }
+
+    header #location-area,
+    header #cart-area {
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    header #cart-area p {
+        display: block;
+    }
+
+    header ul {
+        width: 100%;
+        margin: 0;
+    }
+
+    header #navigation,
+    header #account {
+        width: 50%;
+        display: flex;
+        height: fit-content;
+        float: left;
+    }
+
+    header #account {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header #links {
+        width: 100%;
+    }
+
+    header ul {
+        flex-flow: row;
+    }
+
+    header #links li {
+        border: none;
+        display: flex;
+        flex-flow: row nowrap;
+        /* height: fit-content; */
+    }
+
+    header .dropdown {
+        height: 16.75px;
+        display: flex;
+
+    }
+
+    header #links a {
+        font-size: 0.75rem;
+        margin: 0 15px;
+    }
+
+    header #dropdown a {
+        color: #0046be;
+    }
+
+    header #links img {
+        color: white;
+        width: 15px;
+        height: 10px;
+    }
+
+
+
+    /***** SALE *****/
+    #sale .catagory {
+        width: 20%;
+    }
+
 }

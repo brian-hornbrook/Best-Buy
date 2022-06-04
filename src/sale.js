@@ -3,12 +3,17 @@ import catagoryInfoData from './data';
 
 const renderCatagoryInfo = eachCatagory => (
     <div key={eachCatagory.id} className="catagory"><a>
-        <div className="circle-content"><img src={eachCatagory.url} /></div>
-        <p>{eachCatagory.name}</p>
+        <div className="catagory-area">
+            <div id="circle-area">
+                <div className="circle-content"><img src={eachCatagory.url} /></div>
+                <p>{eachCatagory.name}</p>
+            </div>
+
+        </div>
     </a></div>
 )
 
-const  catagoryInfo = props => {
+const catagoryInfo = props => {
     const data = catagoryInfoData.map(renderCatagoryInfo);
     return <div id="catagories">{data}</div>
 }
