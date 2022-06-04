@@ -59,7 +59,7 @@
     font-weight: 400;
 }
 
-#sale #full-list h6 {
+#sale h6 {
     font-size: 0.8rem;
 }
 
@@ -70,7 +70,7 @@
     align-items: center;
 }
 
-#sale #full-list span {
+#sale span {
     margin: 0 5px 0 3px;
 }
 
@@ -116,7 +116,7 @@
 #sale .catagory #circle-area {
     display: flex;
     flex-flow: column;
-    width: 100px;
+    /* width: 100px; */
 }
 
 #sale .catagory .circle-content {
@@ -394,4 +394,92 @@ header #list-dropdown {
         width: 20%;
     }
 
+}
+
+
+
+/***** DESKTOP *****/
+@media(min-width: 1200px) {
+    /* greeting */
+    #greeting h6 {
+        font-size: 2.5rem;
+    }
+
+    #greeting h6 span {
+        font-size: 1.4rem;
+    }
+
+    #greeting p,
+    #greeting p span {
+        font-size: 1.4rem;
+    }
+
+
+
+    /* sale */
+    #sale #title h2,
+    #sale #title h1 {
+        font-size: 3rem;
+    }
+    #sale h6,
+    #sale p {
+        font-size: 1.5rem;
+    }
+
+    #sale #full-list p {
+        font-size: 1.5rem;
+    }
+
+    #sale #full-list span {
+        margin: 0 10px;
+    }
+
+    #sale #catagories .circle-content {
+        width: 175px;
+        height: 175px;
+    }
+
+    #sale #catagories #circle-area p {
+        font-size: 1.1rem;
+    }
+
+
+    
+    /* header */
+    header #brand-area {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header #brand-area img {
+        width: 120px;
+        height: 70px;
+    }
+
+    header #search-area {
+        height: 100%;
+        width: 60%;
+        display: flex;
+        align-items: center;
+    }
+
+    header #searchBar-area,
+    header #searchBar-button-area {
+        height: 60%;
+    }
+
+    header #searchBar-area input,
+    header #searchBar-button-area svg {
+        height: 100%;
+        font-size: 1.4rem;
+    }
+
+    header #search-links div {
+        font-size: 1.5rem;
+    }
+
+    header #links a {
+        font-size: 1.5rem;
+    }
 }
