@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Best-Buy/static/css/main.5a2d2f63.css",
+    "main.js": "/Best-Buy/static/js/main.03f997e9.js",
+    "static/media/drone.png": "/Best-Buy/static/media/drone.43b92a266894035fcede.png",
+    "static/media/pcGaming.png": "/Best-Buy/static/media/pcGaming.0eabf2b41498cf978b86.png",
+    "static/media/tv.png": "/Best-Buy/static/media/tv.fca718c62da2a77b0745.png",
+    "static/media/smartHome.png": "/Best-Buy/static/media/smartHome.dff664eae16c7f4c3c41.png",
+    "static/media/camera.png": "/Best-Buy/static/media/camera.c94c6c54b118414e49af.png",
+    "static/media/cellPhone.png": "/Best-Buy/static/media/cellPhone.3aea4d48d085b8485dc2.png",
+    "static/media/sound.png": "/Best-Buy/static/media/sound.fe2ae86335c50c6fd6a0.png",
+    "static/media/pc.png": "/Best-Buy/static/media/pc.6a55382a1787cb904bfb.png",
+    "static/media/apple.png": "/Best-Buy/static/media/apple.408f68dd7a55276cf794.png",
+    "static/media/smallAppliance.png": "/Best-Buy/static/media/smallAppliance.f1aa9307d7a94401be4b.png",
+    "static/media/fitness.png": "/Best-Buy/static/media/fitness.534dfa1e6edae9a9aa09.png",
+    "static/media/hover.png": "/Best-Buy/static/media/hover.86ffcd05256af6fb87f9.png",
+    "static/media/video game.png": "/Best-Buy/static/media/video game.ae8c569aba4bb202cb57.png",
+    "static/media/tab.png": "/Best-Buy/static/media/tab.77d940b06f4e7fc63e89.png",
+    "static/media/appliance.png": "/Best-Buy/static/media/appliance.a1c71f8200030ef686e0.png",
+    "static/media/headPhone.png": "/Best-Buy/static/media/headPhone.f38f6fcd3119d954d2e7.png",
+    "static/media/streaming.png": "/Best-Buy/static/media/streaming.6fb086ab5a05827ed272.png",
+    "static/media/printer.png": "/Best-Buy/static/media/printer.c3fb73d5f95ac5ea3c52.png",
+    "index.html": "/Best-Buy/index.html",
+    "main.5a2d2f63.css.map": "/Best-Buy/static/css/main.5a2d2f63.css.map",
+    "main.03f997e9.js.map": "/Best-Buy/static/js/main.03f997e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a2d2f63.css",
+    "static/js/main.03f997e9.js"
+  ]
+}
