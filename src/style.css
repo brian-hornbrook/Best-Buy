@@ -1,0 +1,490 @@
+/***** GREETING *****/
+#greeting {
+    padding: 15px 0;
+    text-align: center;
+}
+
+#greeting h6 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#greeting h6 span {
+    padding-left: 8px;
+}
+
+#greeting p {
+    font-size: 0.7rem;
+    margin: 0 0;
+}
+
+#greeting span {
+    color: rgba(0, 0, 255, 0.712);
+    font-size: 0.7rem;
+    font-weight: normal;
+}
+
+
+
+/***** SALE *****/
+#sale {
+    background-color: black;
+    color: white;
+}
+
+#sale #title {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#sale #title span,
+#sale .catagory p {
+    color: #fff200;
+}
+
+#sale .container {
+    margin: 20px 0;
+    width: auto;
+}
+
+#sale #title-info h1,
+#sale #title-info h2 {
+    font-size: 2.0rem;
+    font-weight: 900;
+}
+
+#sale #title-info h6 {
+    font-weight: 400;
+}
+
+#sale h6 {
+    font-size: 0.8rem;
+}
+
+#sale #full-list p {
+    font-size: 0.6rem;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+}
+
+#sale span {
+    margin: 0 5px 0 3px;
+}
+
+#sale #full-list .btn-warning {
+    background-color: #fff200;
+    border: #fff200;
+    height: 20px;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+}
+
+#sale p {
+    font-size: 0.7rem;
+    margin: 0 20px;
+}
+
+#sale #catagories {
+    margin: 0 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#sale .catagory {
+    width: 33%;
+    padding: 10px 10px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+#sale a {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+#sale .catagory-area {
+    display: flex;
+    justify-content: center;
+}
+
+#sale .catagory #circle-area {
+    display: flex;
+    flex-flow: column;
+    /* width: 100px; */
+}
+
+#sale .catagory .circle-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 3px #4976e6;
+}
+
+#sale .catagory img {
+    height: 75%;
+}
+
+#sale .catagory p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 0.6rem;
+}
+
+
+
+/***** HEADER *****/
+header {
+    background-color: #0046be;
+    padding: 0 15px;
+}
+
+header #location {
+    border-bottom: 1px solid rgba(173, 209, 230, 0.534);
+    color: white;
+    padding: 8px;
+}
+
+header #location p {
+    margin: 0;
+}
+
+header nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    padding: 10px 0;
+}
+
+header #header-bar {
+    padding: 0;
+    width: 100%;
+}
+
+header #non-collapse-area {
+    display: flex;
+    justify-content: space-around;
+}
+
+header #brand-area {
+    margin-right: 10px;
+    width: 18%;
+}
+
+header #brand {
+    height: 35px;
+    width: 60px;
+}
+
+header form {
+    flex-flow: row;
+    box-sizing: border-box;
+}
+
+header #search-area {
+    width: 60%;
+    height: 35px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 10px;
+}
+
+header #searchBar-area {
+    width: 90%;
+    border-right: white;
+    border-radius: 4px 0 0 4px;
+}
+
+header #searchBar-area input {
+    border-radius: 4px 0 0 4px;
+    border: white;
+}
+
+header #searchBar-button-area {
+    background-color: white;
+    width: 13%;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-left: white;
+    border-radius: 0 4px 4px 0;
+}
+
+header #location-area,
+header #cart-area p {
+    display: none;
+}
+
+header div img {
+    height: 35px;
+    width: 35px;
+}
+
+header #collapse-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header #links {
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+}
+
+header li {
+    margin: 10px 0;
+    border: 1px solid rgba(196, 196, 196, 0.527);
+    text-align: center;
+}
+
+header #links a {
+    color: white;
+    font-size: .9rem;
+    padding-top: 1px;
+}
+
+header .collapse-spacer {
+    margin: 20px 0;
+    height: 10px;
+    background-color: rgba(196, 196, 196, 0.089);
+}
+
+header #list-dropdown {
+    display: none;
+}
+
+
+
+/***** TABLET *****/
+@media(min-width: 768px) {
+
+    /* header */
+    header #location {
+        display: none;
+    }
+
+    header #header-bar {
+        display: flex;
+        flex-flow: column;
+    }
+
+    header #non-collapse-area {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    header #brand-area {
+        width: 10%;
+    }
+
+    header #search-area {
+        width: 40%;
+    }
+
+    header #searchBar-area {
+        width: 94%;
+    }
+
+    header #searchBar-button-area {
+        height: 34px;
+    }
+
+    header #search-links {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+
+    header #search-links p {
+        margin: 0;
+        color: white;
+    }
+
+    header #location-area,
+    header #cart-area {
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    header #cart-area p {
+        display: block;
+    }
+
+    header ul {
+        width: 100%;
+        margin: 0;
+    }
+
+    header #navigation,
+    header #account {
+        width: 50%;
+        display: flex;
+        height: fit-content;
+        float: left;
+    }
+
+    header #account {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header #links {
+        width: 100%;
+    }
+
+    header ul {
+        flex-flow: row;
+    }
+
+    header #dropdown ul {
+        display: block;
+    }
+
+    header #links li {
+        border: none;
+        display: flex;
+        flex-flow: row nowrap;
+        /* height: fit-content; */
+    }
+
+    header .dropdown {
+        height: 16.75px;
+        display: flex;
+
+    }
+
+    header #links a {
+        font-size: 0.75rem;
+        margin: 0 15px;
+    }
+
+    header #dropdown a {
+        color: #0046be;
+    }
+
+    header #links img {
+        color: white;
+        width: 15px;
+        height: 10px;
+    }
+
+
+
+    /***** SALE *****/
+    #sale .catagory {
+        width: 20%;
+    }
+
+}
+
+
+
+/***** DESKTOP *****/
+@media(min-width: 1200px) {
+
+    /* greeting */
+    #greeting h6 {
+        font-size: 2.5rem;
+    }
+
+    #greeting h6 span {
+        font-size: 1.4rem;
+    }
+
+    #greeting p,
+    #greeting p span {
+        font-size: 1.4rem;
+    }
+
+
+
+    /* sale */
+    #sale #title h2,
+    #sale #title h1 {
+        font-size: 3rem;
+    }
+
+    #sale h6,
+    #sale p {
+        font-size: 1.5rem;
+    }
+
+    #sale #full-list p {
+        font-size: 1.5rem;
+    }
+
+    #sale #full-list span {
+        margin: 0 10px;
+    }
+
+    #sale #catagories .circle-content {
+        width: 175px;
+        height: 175px;
+    }
+
+    #sale #catagories #circle-area p {
+        font-size: 1.1rem;
+    }
+
+
+
+    /* header */
+    header #brand-area {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header #brand-area img {
+        width: 120px;
+        height: 70px;
+    }
+
+    header #search-area {
+        height: 100%;
+        width: 60%;
+        display: flex;
+        align-items: center;
+    }
+
+    header #searchBar-area,
+    header #searchBar-button-area {
+        height: 60%;
+    }
+
+    header #searchBar-area input,
+    header #searchBar-button-area svg {
+        height: 100%;
+        font-size: 1.4rem;
+    }
+
+    header #search-links div {
+        font-size: 1.5rem;
+    }
+
+    header #links a {
+        font-size: 1.5rem;
+    }
+}
