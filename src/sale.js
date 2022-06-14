@@ -29,7 +29,7 @@ const Sale = () => {
                 </div>
                 <div id="full-list" className="container">
                     <h6>Plus, shop more Holiday Deals happening today.</h6>
-                    <p>See<span>Black Friday FAQs</span> <button type="button" class="btn btn-warning">Shop Now</button></p>
+                    <p>See<span>Black Friday FAQs</span> <button type="button" className="btn btn-warning">Shop Now</button></p>
                 </div>
             </div>
             <p>Shop Black Friday Deals by catagory</p>

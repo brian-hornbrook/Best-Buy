@@ -241,7 +241,6 @@ header #collapse-area {
 header #links {
     display: flex;
     justify-content: center;
-    /* width: 60%; */
 }
 
 header ul {
@@ -359,6 +358,10 @@ header #list-dropdown {
         flex-flow: row;
     }
 
+    header #dropdown ul {
+        display: block;
+    }
+
     header #links li {
         border: none;
         display: flex;
@@ -400,6 +403,7 @@ header #list-dropdown {
 
 /***** DESKTOP *****/
 @media(min-width: 1200px) {
+
     /* greeting */
     #greeting h6 {
         font-size: 2.5rem;
@@ -421,6 +425,7 @@ header #list-dropdown {
     #sale #title h1 {
         font-size: 3rem;
     }
+
     #sale h6,
     #sale p {
         font-size: 1.5rem;
@@ -444,7 +449,7 @@ header #list-dropdown {
     }
 
 
-    
+
     /* header */
     header #brand-area {
         width: 20%;
